@@ -1,7 +1,12 @@
-class CreateArtists < ActiveRecord::Migration
-  def up
-  end
+# class CreateArtists < ActiveRecord::Migration
+#   def up
+#   end
+# 
+#   def down
+#   end
+# end
 
-  def down
+class CreateArtists < ActiveRecord::Migration
+  def change
   end
 end
