@@ -9,7 +9,6 @@ require 'bundler/setup'
 Bundler.require
 
 
-# put the code to connect to the database here
-
+DB = {:conn => SQLite3::Database.new("db/migrate/01_create_artists.rb")}
 
 require_relative "../artist.rb"
